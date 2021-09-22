@@ -1,0 +1,94 @@
+.errorText {
+  color: red;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  min-width: 15rem;
+  flex: 1;
+}
+
+.form-control input,
+.form-control label {
+  display: block;
+  min-width: 35rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.form-control input,
+.form-control select {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #240370;
+  background-color: #e0d4fd;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.form-actions button {
+  font: inherit;
+  color: #5a1a01;
+  border: 1px solid #5a1a01;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+}
+
+.form-actions button:hover,
+.form-actions button:active {
+  background-color: #5a1a01;
+  color: white;
+}
+
+.form-actions .submit {
+  border: 1px solid #5a1a01;
+  background-color: #5a1a01;
+  color: white;
+}
+
+.form-actions .submit:hover,
+.form-actions .submit:active {
+  background-color: #7a2706;
+}
+
+.form-actions .submit:disabled {
+  cursor: disabled;
+  background-color: rgb(155, 153, 153);
+  color: whitesmoke;
+  border-color: rgb(155, 153, 153);
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.orderTag {
+  font-weight: bold;
+}
